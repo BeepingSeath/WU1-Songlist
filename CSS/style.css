@@ -1,0 +1,22 @@
+.container{
+    max-width: 48rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #D3D3D3;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.record_header{
+    display: flex;
+}
+a{
+    color:rgb(0, 0, 0);
+}
+
+@media screen and (max-width:512px){
+    .record_header{
+        flex-direction: column;
+    }
+}
